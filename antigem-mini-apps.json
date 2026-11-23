@@ -1,0 +1,273 @@
+{
+  "name": "LytsoCoder Mini Apps",
+  "format": 1,
+  "generated": "2026-11-22T00:02:29.020Z",
+  "apps": [
+    {
+      "path": "apps/agy-accounts",
+      "id": "com.antigem.agyaccounts",
+      "name": "Agy Accounts",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Save your Antigravity (agy) logins and switch between them.",
+      "icon": "apps/agy-accounts/icon.png",
+      "package": "dist/com.antigem.agyaccounts-1.0.0.agapp",
+      "sha256": "f4d4567e9e62076651780de42ad856e72bff773a5932b3d810f43138bde3a443",
+      "size": 10158,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "storage": {
+          "folders": [
+            {
+              "path": "~/.gemini",
+              "access": "readwrite"
+            }
+          ]
+        }
+      },
+      "updated": "2026-11-22T00:01:19.352Z"
+    },
+    {
+      "path": "apps/devtools",
+      "id": "com.antigem.devtools",
+      "name": "Dev Toolbox",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "HTTP client, WebSocket tester, encoders and hashes, and LytsoCoder MCP tools in one place.",
+      "icon": "apps/devtools/icon.png",
+      "package": "dist/com.antigem.devtools-1.0.0.agapp",
+      "sha256": "3f145fbf4b7df73bdd0eb7b66ea59af5c41687774ce3f021840844aa046a879d",
+      "size": 15146,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "network": {
+          "hosts": [
+            "*"
+          ]
+        },
+        "localhost": {
+          "ports": [
+            3000,
+            5173,
+            8000,
+            8080
+          ]
+        },
+        "clipboard": true,
+        "mcp": {
+          "notes_mcp": {
+            "tools": "*",
+            "ask": true
+          }
+        }
+      },
+      "updated": "2026-11-22T00:01:19.385Z"
+    },
+    {
+      "path": "apps/explorer",
+      "id": "com.antigem.explorer",
+      "name": "Explorer",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Wikipedia, dictionary, currency rates, countries and Hacker News: free APIs, no keys, through LytsoCoder's native network.",
+      "icon": "apps/explorer/icon.png",
+      "package": "dist/com.antigem.explorer-1.0.0.agapp",
+      "sha256": "6d0e60d43f6e892ac782835c8210db14106b0fb2a02d28c510bfac352ce89997",
+      "size": 21304,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "network": {
+          "hosts": [
+            "en.wikipedia.org",
+            "upload.wikimedia.org",
+            "api.dictionaryapi.dev",
+            "ssl.gstatic.com",
+            "open.er-api.com",
+            "countriesnow.space",
+            "flagcdn.com",
+            "hacker-news.firebaseio.com",
+            "thumb.wikimedia.org"
+          ]
+        },
+        "notifications": true,
+        "background": true
+      },
+      "updated": "2026-11-22T00:01:19.395Z"
+    },
+    {
+      "path": "apps/focus",
+      "id": "com.antigem.focus",
+      "name": "Focus",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Pomodoro focus timer: a live countdown notification with Pause and Skip, tasks, history, streaks and reminders that fire even when the app is closed.",
+      "icon": "apps/focus/icon.png",
+      "package": "dist/com.antigem.focus-1.0.0.agapp",
+      "sha256": "3dd459605187e137fcbe9e33185f8b37cac99f70bb32499ff67d4056059329c3",
+      "size": 21900,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "notifications": true,
+        "background": true
+      },
+      "updated": "2026-11-22T00:01:19.406Z"
+    },
+    {
+      "path": "apps/gallery",
+      "id": "com.antigem.gallery",
+      "name": "Gallery",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Browse photos and videos on your phone. Native file access per folder, thumbnails streamed natively.",
+      "icon": "apps/gallery/icon.png",
+      "package": "dist/com.antigem.gallery-1.0.0.agapp",
+      "sha256": "3562fbd69534dee71734a129cac1a4aac8b65171d15cad06f7974ae5047d0735",
+      "size": 12837,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "storage": {
+          "folders": [
+            {
+              "path": "/sdcard/DCIM",
+              "access": "read"
+            },
+            {
+              "path": "/sdcard/Pictures",
+              "access": "readwrite"
+            }
+          ],
+          "pick": "read"
+        },
+        "camera": true
+      },
+      "updated": "2026-11-22T00:01:19.422Z"
+    },
+    {
+      "path": "apps/habits",
+      "id": "com.antigem.habits",
+      "name": "Habits",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Daily habit tracker with streaks, a 4-week history and a daily reminder.",
+      "icon": "apps/habits/icon.png",
+      "package": "dist/com.antigem.habits-1.0.0.agapp",
+      "sha256": "9da5aaff9632243377e62378b823ac3614575a198beb110e070cb703bccb79e4",
+      "size": 15764,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "notifications": true
+      },
+      "updated": "2026-11-22T00:01:19.454Z"
+    },
+    {
+      "path": "apps/notes",
+      "id": "com.antigem.notes",
+      "name": "Pocket Notes",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Quick markdown notes with pins, reminders, search, sharing and export to your Documents folder.",
+      "icon": "apps/notes/icon.png",
+      "package": "dist/com.antigem.notes-1.0.0.agapp",
+      "sha256": "35ab342db0c4d2a4356467bcd6027d21314275ff59b282ed107579b5f2dfd93b",
+      "size": 16279,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "notifications": true,
+        "clipboard": true,
+        "storage": {
+          "folders": [
+            {
+              "path": "/sdcard/Documents/PocketNotes",
+              "access": "readwrite"
+            }
+          ]
+        }
+      },
+      "updated": "2026-11-22T00:01:19.465Z"
+    },
+    {
+      "path": "apps/showcase",
+      "id": "com.antigem.showcase",
+      "name": "Showcase",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Tries every Mini Apps feature: native storage, IndexedDB, files, network, cookies, native UI, notifications, reminders, background tasks, threads, permissions, theme and console.",
+      "icon": "apps/showcase/icon.png",
+      "package": "dist/com.antigem.showcase-1.0.0.agapp",
+      "sha256": "0d4f64da2564de366b92372164fc169f40283d831c1a2ef2ee9c21f2f265c184",
+      "size": 25846,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "network": {
+          "hosts": [
+            "api.github.com",
+            "httpbin.org",
+            "ws.postman-echo.com",
+            "picsum.photos",
+            "*.picsum.photos",
+            "fastly.picsum.photos"
+          ]
+        },
+        "localhost": {
+          "ports": [
+            8080
+          ]
+        },
+        "storage": {
+          "folders": [
+            {
+              "path": "/sdcard/Download",
+              "access": "read"
+            },
+            {
+              "path": "/sdcard/Documents/Showcase",
+              "access": "readwrite"
+            }
+          ],
+          "pick": "read"
+        },
+        "notifications": true,
+        "background": true,
+        "clipboard": true,
+        "camera": true,
+        "mcp": {
+          "notes_mcp": "read"
+        }
+      },
+      "updated": "2026-11-22T00:02:29.002Z"
+    },
+    {
+      "path": "apps/weather",
+      "id": "com.antigem.weather",
+      "name": "Sky",
+      "version": "1.0.0",
+      "version_code": 1000000,
+      "description": "Weather forecast with hourly chart, 7 days, rain alerts in the background and a morning reminder.",
+      "icon": "apps/weather/icon.png",
+      "package": "dist/com.antigem.weather-1.0.0.agapp",
+      "sha256": "22baa050b790adb6238fdecd7f83735dc816dc2fd0c9fbfee04029e38756edf5",
+      "size": 13621,
+      "developer": "Lytso",
+      "fingerprint": "b50041d2e6384b6dc0a26326679cb9525e06679880f905de58018b82ff1add2a",
+      "permissions": {
+        "network": {
+          "hosts": [
+            "api.open-meteo.com",
+            "geocoding-api.open-meteo.com"
+          ]
+        },
+        "notifications": true,
+        "background": true
+      },
+      "updated": "2026-11-22T00:01:19.495Z"
+    }
+  ]
+}
